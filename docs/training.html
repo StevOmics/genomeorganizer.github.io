@@ -52,8 +52,8 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li class="colorlib-active"><a href="projects.html">Projects</a></li>
-            <li><a href="training.html">Training</a></li>
+            <li ><a href="projects.html">Projects</a></li>
+            <li class="colorlib-active"><a href="training.html">Training</a></li>
 
             <!-- <li><a href="photography.html">Photography</a></li> -->
             <!-- <li><a href="fashion.html">Fashion</a></li> -->
@@ -85,80 +85,174 @@
       <!-- END COLORLIB-ASIDE -->
 
       <div id="colorlib-main">
-		  <div class="h1">Projects</div>
+      <div class="h1">Training</div>
+      
         <section class="ftco-section-2">
-
-          <!--geneleaf-->
           <div class="container">
             <div class="row">
-            <div class="blog-entry ftco-animate">
+              This page contains a summary of the training that I have completed for deepening of my knowledge and specifically for maintenance of professional certifications, including CPE and PDU credits. I'm leaving this open for all to see, including certification organizations. I'm also including my own personal ratings (from * to *****) and my comments so that other visitors can view these and perhaps decide on which of these sources to use for their own training.
+
+          <div class="blog-entry ftco-animate">
 				  <div class="text text-2 pt-2 mt-3">
-					  <h2 class="mb-2">
-						<a href="https://www.geneleaf.com">GeneLeaf </a>
-					  </h2>
+					  <h3 class="mb-4">
+						<a href="https://www.geneleaf.com">2021 </a>
+					  </h3>
 					  <span class="category mb-3 d-block">
-						  <a href="https://www.geneleaf.com">
-							<img src="./images/geleleaf-simple-screenshot.png">
-						</a>
 					</span>
-						
                   <p class="mb-4">
-                    GeneLeaf is a cloud-based application designed to support the analysis of hereditary relationships through a standard pedigree format. Genetics is the study of family relationships which transfer the information that determines the phenotype of each individual in form of discrete hereditary units called genes. Pedigree diagrams allow relationships to be quickly and efficiently documented in a standardized format. In these diagrams, the relationships between individuals are represented through a simplfied set of symbols, related through lines. Gene Leaf enables users to quickly capture information in this form through an intuitive user interface, which supports rapid entry of information.
+                    <table class="table">
+                      <!--header-->
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">Type</th>
+                          <th scope="col">Format</th>
+                          <th scope="col">Hours</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">ID</th>
+                          <th scope="col">URL</th>
+                          <th scope="col">Completion Date</th>
+                          <th scope="col">Rating</th>
+                          <th scope="col">Comments</th>
+                          <th scope="col">Confirmed</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!--body-->
+                        <tr>
+                          <th scope="col">CPE</th>
+                          <th scope="col">Webinar</th>
+                          <th scope="col">1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">NA</th>
+                          <th scope="col">URL</th>
+                          <th scope="col">1/11/2021</th>
+                          <th scope="col">***</th>
+                          <th scope="col">OK</th>
+                          <th scope="col">Automatic</th>
+                        </tr>
+                        <!-- <tr>
+                          <th scope="col">CPE</th>
+                          <th scope="col">Webinar</th>
+                          <th scope="col">1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">URL</th>
+                          <th scope="col">1/11/2021</th>
+                          <th scope="col">***</th>
+                          <th scope="col">OK</th>
+                          <th scope="col">Automatic</th>
+                        </tr> -->
+                        <!-- <tr>
+                          <th scope="col">CPE</th>
+                          <th scope="col">Webinar</th>
+                          <th scope="col">1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">URL</th>
+                          <th scope="col">1/11/2021</th>
+                          <th scope="col">***</th>
+                          <th scope="col">OK</th>
+                          <th scope="col">Automatic</th>
+                        </tr> -->
+                      </tbody>
+                    </table>
                   </p>
-           
                   <div class="meta-wrap align-items-center">
-               
                     <div class="half">
                       <p>
-
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
+
+
             </div>
           </div>
-
-          <!--GOBOT-->
-          <div class="container">
-            <div class="row">
-            <div class="blog-entry ftco-animate">
-				  <div class="text text-2 pt-2 mt-3">
-					  <h2 class="mb-2">
-						<a href="https://www.geneleaf.com">GoBot</a>
-					  </h2>
-					  <span class="category mb-3 d-block">
-						  <a href="https://twitter.com/genomeorganizer">
-							<img src="./images/tweets.png" width ="600">
-						</a>
-					</span>
-						
-                  <p class="mb-4">
-                    GoBot is a Twitter Bot based on the Twit library with a few very simple rules:
-                    <ul>
-                      <li>Tweet 2 quotes each day from a list of quotes in a text file.</li>
-                      <li>Tweet back at any tweets mentioning my screen name with a few canned responses.</li>
-                      <li>At regular intervals (1hr), search for the most popular tweet and tweet-quote it, using a few simple canned expressions.</li>
-                    </ul>
-                    I have been utterly shocked at the relative success that this has produced. The Tweet impressions on my account have soared to over 30K per month. I'm not saying this couldn't be better--the Bot is laughably simplistic at this point, often even using the same canned expression on sequential tweets since I didn't bother to add too many alternatives in this version. Nonetheless, it appears to be getting a lot more views than I would havve expected from such a simple bot. You can easily see this on the graph, since I am hitting my Heroku usage quota towards the end of each month, causing the bot to shut down temporarily and the impressions to go to zero. This is one of the things I plan to fix in the next version.
-                  </p>
-           
-                  <div class="meta-wrap align-items-center">
-               
-                    <div class="half">
-                      <p>
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </section>
 
 
+        <!-- <section class="ftco-section-2">
+          <div class="container">
+            <div class="row">
+
+
+          <div class="blog-entry ftco-animate">
+				  <div class="text text-2 pt-2 mt-3">
+					  <h3 class="mb-4">
+						<a href="https://www.geneleaf.com">2020 </a>
+					  </h3>
+					  <span class="category mb-3 d-block">
+					</span>
+                  <p class="mb-4">
+                    <table class="table">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">Type</th>
+                          <th scope="col">Format</th>
+                          <th scope="col">Hours</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">ID</th>
+                          <th scope="col">URL</th>
+                          <th scope="col">Completion Date</th>
+                          <th scope="col">Rating</th>
+                          <th scope="col">Comments</th>
+                          <th scope="col">Confirmed</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="col">CPE</th>
+                          <th scope="col">Webinar</th>
+                          <th scope="col">1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">URL</th>
+                          <th scope="col">1/11/2021</th>
+                          <th scope="col">***</th>
+                          <th scope="col">OK</th>
+                          <th scope="col"></th>
+                        </tr>
+                        <tr>
+                          <th scope="col">CPE</th>
+                          <th scope="col">Webinar</th>
+                          <th scope="col">1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">URL</th>
+                          <th scope="col">1/11/2021</th>
+                          <th scope="col">***</th>
+                          <th scope="col">OK</th>
+                          <th scope="col"></th>
+                        </tr>
+                        <tr>
+                          <th scope="col">CPE</th>
+                          <th scope="col">Webinar</th>
+                          <th scope="col">1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">Gigamon #1</th>
+                          <th scope="col">URL</th>
+                          <th scope="col">1/11/2021</th>
+                          <th scope="col">***</th>
+                          <th scope="col">OK</th>
+                          <th scope="col"></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                                  </p>
+                  <div class="meta-wrap align-items-center">
+                    <div class="half">
+                      <p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </section> -->
 
         
         <footer
@@ -174,8 +268,8 @@
             <i class="icon-heart" aria-hidden="true"></i> by
             <a href="https://colorlib.com" target="_blank" style="color: black"
               >Colorlib</a
-            > -->
-          </p>
+            >
+          </p> -->
         </footer>
 
         <!-- <footer class="ftco-footer ftco-bg-dark ftco-section">
