@@ -1,0 +1,57 @@
+<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+<aside
+        id="colorlib-aside"
+        role="complementary"
+        class="js-fullheight text-center"
+      >
+        <h1 id="colorlib-logo">
+          <a href="index.html">SDA<span>.</span></a>
+        </h1>
+        <nav id="colorlib-main-menu" role="navigation">
+          <ul>
+            <li id="ttl-Home"><a href="index.html" >Home</a></li>
+            <li id="ttl-Blog"><a href="blog.html" >Blog</a></li>
+            <li id="ttl-Projects"><a href="projects.html">Projects</a></li>
+            <!-- class="colorlib-active" -->
+            <!-- <li><a href="training.html">Training</a></li> -->
+
+            <!-- <li><a href="photography.html">Photography</a></li> -->
+            <!-- <li><a href="fashion.html">Fashion</a></li> -->
+            <li id="ttl-Contact"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="colorlib-footer">
+          <ul>
+            <!-- <li><a href="#"><i class="icon-facebook"></i></a></li> -->
+            <li>
+              <a href="https://github.com/genomeorganizer"
+                ><i class="icon-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/sdayers/"
+                ><i class="icon-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/genomeorganizer"
+                ><i class="icon-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- END COLORLIB-ASIDE -->
+<!-- JS code -->
+<script>
+$(document).ready(function() {
+    console.log("Running sidebar code...");
+      var page_title = document.getElementsByTagName("title")[0].innerHTML;
+    //   page_title="Home";
+      var side_title = "ttl-"+page_title;
+      $('#'+side_title).addClass("colorlib-active");
+      console.log("Updated");
+      console.log("title:"+side_title);
+});
+</script>
